@@ -1,0 +1,72 @@
+body{
+  display: block;
+  margin: 8px;
+  background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=1380&t=st=1692226298~exp=1692226898~hmac=a52983c8b575811cf3c23e5eeeb2971b95aa0f0bffef10cbd9786b4986b3b049);
+  color: white;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+h1,p{
+  margin: 1em auto;
+  text-align: center;
+  width: 50%;
+}
+h1{
+  font-size: 35px;
+}
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: auto;
+  padding-bottom: 2em;
+  background-color: rgba(70,130,180,60%);
+  text-decoration-color: white;
+  font-size: 20px;
+}
+fieldset{
+  border: 0;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type{
+  border-bottom: none;
+}
+input,textarea,select{
+  margin-top: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input,textarea{
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+input[type="submit"]{
+  display: block;
+  width: 60vw;
+  margin: 1em auto 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+}
+input[type="file"]{
+  padding: 1px 2px;
+}
+a{
+  color: #dfdfe2;
+}
+.dropdown{
+background-color:#0a0a23;
+color: white;
+}
